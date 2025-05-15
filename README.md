@@ -16,3 +16,4 @@ module.exports = db;
 
 This code define a Node.js app with a PostgreSQL database using 'pg-promise'. It loads database settings (host, name, user, password) from '.env' file for security, and it exports the connectionto reuse elsewhere in the application.
 
+userModel.js
