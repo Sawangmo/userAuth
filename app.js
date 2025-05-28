@@ -4,8 +4,8 @@ const cookieParser = require('cookie-parser');
 const session = require('express-session');
 require('dotenv').config();
 
-const { createUserTable } = require('./models/userModel');
-const { createFoodTable } = require('./models/foodModel');
+const { createUserTable } = require('./Models/userModel');
+const { createFoodTable } = require('./Models/foodModel');
 
 const adminRoutes = require('./routes/adminRoutes');
 const authRoutes = require('./routes/authRoutes');
